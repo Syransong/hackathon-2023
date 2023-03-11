@@ -1,5 +1,5 @@
 <?php
-    require('../src/init.php');
+    require('../../src/init.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,8 +9,8 @@
             require(get_path('public/partials/global/header.php'));
         ?>
         <main>
-            <h1>Forward</h1>
-            <p>The place to connect with local mentors </p>
+            <h1>Mentor List</h1>
+            <p>List of all mentors</p>
         </main>
         <?php 
             require(get_path('public/partials/global/footer.php'));
