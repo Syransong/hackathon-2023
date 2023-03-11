@@ -16,4 +16,4 @@
             require(get_path('public/partials/global/footer.php'));
         ?>
     </body>
-</html>
+</html> 
