@@ -7,7 +7,7 @@
     require('functions.php');
 
     //Classes
-    require('Classes/User.php');
+    require('Classes/Mentor.php');
     // require('data/projects.php');
 
 ?>
