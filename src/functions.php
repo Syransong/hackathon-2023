@@ -20,17 +20,14 @@ function get_path($path = "/") {
     return PROJECT_ROOT . $path;
 }
 
-// Return special characters as HTML entities
 function h($str) {
     return htmlspecialchars($str);
 }
 
-// Returns a URL safe string
 function u($string) {
     return urlencode($string);
 }
 
-// Checks if a value is blank 
 function is_blank($var) {
     if(!isset($var) || "" === trim($var, " ") ) {
         return true;
@@ -38,7 +35,6 @@ function is_blank($var) {
     return false;
 }
 
-// Wrap in a <pre> HML tag to display data in HTML
 function wrap_pre($data) {
     return '<pre>' . print_r($data,true) . '</pre>';
 }
@@ -50,10 +46,23 @@ function dd($data) {
 
 function set_name($name) {
     $namesplode = explode(" ", $name);
-    // The variable the stores the concatenated strings
     $name_split = strtolower($namesplode[0]) . "-" . strtolower($namesplode[1]);
-    // We then assign that variable to $this->image_url which is the new object that is instantiated/constructed
     return $name_split;          
 }  
 
+function db_connect(){
+    $host = DB_HOST;
+    $username = DB_USER;
+    $password = DB_PASS;
+    $db_name = DB_NAME;
+
+    $db = new mysqli($host, $username, $password, $db_name);
+    if($db->connect_errno) {
+        echo "Failed to connect to MySQL: " . $db -> connect_error;
+        exit();
+    };
+    return $db;
+};
+
 ?>
+
