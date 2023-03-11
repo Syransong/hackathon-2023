@@ -1,15 +1,19 @@
+<?php
+    require('../src/init.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php 
-        include('partials/components/global/header.php');
-    ?>
-    <h1>Forward</h1>
-</body>
+    <?php require(get_project_path('public/partials/global/head.php'));  ?> 
+    <body>
+        <?php 
+            include('partials/components/global/header.php');
+        ?>
+        <main>
+            <h1>Forward</h1>
+            <p>The place to connect with local mentors </p>
+        </main>
+        <?php 
+            include('partials/components/global/footer.php');
+        ?>
+    </body>
 </html>
