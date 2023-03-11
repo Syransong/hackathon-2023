@@ -1,6 +1,7 @@
 <header>
     <a href="<?php echo get_public_url('/index.php'); ?>" title="Home">
         <img src="" alt="">
+        Forward
     </a>
     <nav>
         <ul class="">
