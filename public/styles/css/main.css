@@ -182,4 +182,17 @@ section.bg {
 
 .col-12 {
   grid-column: span 12;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.d-flex {
+  display: flex;
+}
+
+footer {
+  flex-direction: column;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+}
