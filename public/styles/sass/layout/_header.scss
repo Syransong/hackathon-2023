@@ -1,0 +1,23 @@
+header {
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .global-nav {
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+            margin-right: 2rem;
+        }
+
+        .img-container {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: grey;
+            border-radius: 50%;
+        }
+    }
+}
