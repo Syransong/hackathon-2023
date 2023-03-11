@@ -188,6 +188,27 @@ section.bg {
   display: flex;
 }
 
+header {
+  padding: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .global-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .global-nav li {
+  margin-right: 2rem;
+}
+header .global-nav .img-container {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: grey;
+  border-radius: 50%;
+}
+
 footer {
   flex-direction: column;
 }
@@ -195,4 +216,4 @@ footer {
 .footer {
   justify-content: space-between;
   align-items: center;
-}
+}/*# sourceMappingURL=main.css.map */
