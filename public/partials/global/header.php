@@ -3,10 +3,10 @@
         <img src="" alt="">
     </a>
     <nav>
-        <ul class="d-flex nav-menu">
-            <li><a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" title="Design Work" class="nav-link">Design</a></li>
-            <li><a href="<?php echo get_public_url('/pages/.php'); ?>" title="Development" class="nav-link">Development</a></li>
-            <li><a href="<?php echo get_public_url('/pages/ab.php'); ?>" title="About" class="nav-link">About</a></li>
+        <ul class="">
+            <li><a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" title="See all Mentors">>Mentors</a></li>
+            <li><a href="<?php echo get_public_url('/pages/project-showcase.php'); ?>" title="See Project Showcase">Project Showcase</a></li>
+            <li><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View User Profile">Profile</a></li>
         </ul>
     </nav>
 </header>
