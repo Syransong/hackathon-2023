@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php 
-        include('components/header.php');
+        include('partials/components/global/header.php');
     ?>
     <h1>Forward</h1>
 </body>
