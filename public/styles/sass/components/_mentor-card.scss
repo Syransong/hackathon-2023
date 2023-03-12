@@ -2,8 +2,24 @@
 
 .mentor-card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding: 1rem;
-    max-width: 300px;
+    padding: 2rem;
+    max-width: 250px;
     border-radius: 16px;
+    transition: 0.3s;
 }
 
+.mentor-card img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: block;
+}
+
+.mentor-card ul {
+    gap: 1rem;
+}
+
+.mentor-card:hover {
+    transform: translate(0, -10px);
+}
