@@ -12,7 +12,7 @@ $conan_galloway = new Mentor([
     'image_url' => 'conan-galloway-profile-image.jpg',
     'user_bio' => 'I\'m an instructor with BCIT in the New Media Design and Web Development program.',
     'job_title' => 'BCIT Instructor',
-    'specialization' => ['DEVELOPOMENT', 'C#', 'Angular']
+    'specialization' => ['DEVELOPMENT', 'C#', 'Angular']
 ]);
 
 $richard_te = new Mentor([
