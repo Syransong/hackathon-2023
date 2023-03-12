@@ -13,6 +13,10 @@
                 <h1>Mentor List</h1>
             </section>
             <section>
+                <div>
+                    <input type="text" placeholder="Search...">
+                </div>
+            <section>
                 <div class="all-mentors">
                     <?php foreach($mentors as $mentor): ?>
                         <?php include(get_path('public/partials/components/mentor-card.php')); ?>
