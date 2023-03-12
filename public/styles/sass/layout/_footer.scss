@@ -1,8 +1,32 @@
+@use '../config';
+
 footer {
     flex-direction: column;
     
-}
-.footer {
-    justify-content: space-between;
-    align-items: center;
+    .footer {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        
+        li {
+            margin-left: 2rem;
+        }
+    }
+
+    .line {
+        margin: 1rem 0;
+    }
+
+    hr {
+        justify-self: center;
+        color: config.$dark-grey;
+        width: 80%;
+    }
+
+    p {
+        text-align: center;
+    }
 }
