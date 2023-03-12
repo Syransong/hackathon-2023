@@ -110,11 +110,16 @@ figcaption {
 
 body {
   width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 2.5rem 0;
 }
 
 section.bg {
   background-color: #fecaca;
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 .container {
@@ -127,13 +132,6 @@ section.bg {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
-}
-
-.grid > div {
-  width: 100%;
-  aspect-ratio: 1;
-  background-color: #22c55e;
-  border-radius: 1rem;
 }
 
 .col-1 {
@@ -189,7 +187,7 @@ section.bg {
 }
 
 header {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -216,4 +214,26 @@ footer {
 .footer {
   justify-content: space-between;
   align-items: center;
+}
+
+.banner {
+  margin: 5rem 0;
+}
+.banner > div, .banner img {
+  align-self: center;
+}
+.banner img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.features img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.testimonials img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
