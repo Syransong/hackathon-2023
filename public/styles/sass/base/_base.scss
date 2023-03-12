@@ -45,3 +45,9 @@ section.bg {
 .col-10 { grid-column: span 10; }
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
+
+.col-4 {
+    p {
+        text-align: center;
+    }
+}

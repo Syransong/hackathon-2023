@@ -193,6 +193,10 @@ section.bg {
   grid-column: span 12;
 }
 
+.col-4 p {
+  text-align: center;
+}
+
 .d-flex {
   display: flex;
 }
@@ -200,6 +204,7 @@ section.bg {
 .btn {
   justify-self: center;
   align-self: center;
+  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 1rem 1.5rem;
@@ -214,11 +219,10 @@ section.bg {
   box-sizing: border-box;
   justify-self: center;
   align-self: center;
+  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 1rem 1.5rem;
-  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
-  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
   box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
@@ -226,6 +230,7 @@ section.bg {
 .nav-btn {
   justify-self: center;
   align-self: center;
+  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
@@ -240,11 +245,10 @@ section.bg {
   box-sizing: border-box;
   justify-self: center;
   align-self: center;
+  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
-  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
-  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
   box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
@@ -338,7 +342,8 @@ section.bg {
   margin: 0 auto;
   border-radius: 16px;
   display: block;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .project-card ul {
@@ -402,7 +407,8 @@ header .header-content .global-nav .img-container {
   height: 2.5rem;
   background: grey;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 1/1;
   border: 2px solid #00A676;
 }
@@ -471,7 +477,8 @@ footer .footer-content p {
   align-self: center;
 }
 .banner img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   aspect-ratio: 1;
   border-radius: 1rem;
@@ -503,7 +510,8 @@ footer .footer-content p {
 
 .testimonials img {
   max-width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 1/1;
 }
 .testimonials li {
@@ -747,7 +755,6 @@ input[type=text] {
   border-radius: 16px;
   padding: 45px 74px;
   min-width: 600px;
-  -webkit-box-shadow: 0px 2px 12px 5px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 2px 12px 5px rgba(0, 0, 0, 0.08);
 }
 .profile-content .profile-card .card-information {
@@ -760,6 +767,7 @@ input[type=text] {
   width: 152px;
   height: 152px;
   border-radius: 16px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 1/1;
 }/*# sourceMappingURL=main.css.map */
