@@ -2,11 +2,16 @@
 
 body {
     width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    margin: 2.5rem 0;
 }
 
 section.bg {
     background-color: #fecaca;
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 .container {
@@ -21,12 +26,12 @@ section.bg {
     gap: 1rem;
 }
 
-.grid > div {
-    width: 100%;
-    aspect-ratio: 1;
-    background-color: #22c55e;
-    border-radius: 1rem;
-}
+// .grid > div {
+//     width: 100%;
+//     aspect-ratio: 1;
+//     background-color: #22c55e;
+//     border-radius: 1rem;
+// }
 
 .col-1 { grid-column: span 1; }
 .col-2 { grid-column: span 2; }
