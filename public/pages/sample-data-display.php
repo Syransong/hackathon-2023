@@ -1,6 +1,5 @@
 <?php 
     require('../../src/init.php');
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,5 +11,9 @@
 </head>
 <body>
     <h1>Read Mentee Data</h1>
+    <?php foreach($mentors as $mentor):?>
+            <?php  echo $mentor->name ?>
+    <?php endforeach;?>
+    
 </body>
 </html>
