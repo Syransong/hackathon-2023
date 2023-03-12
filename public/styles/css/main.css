@@ -363,6 +363,19 @@ footer .footer-content p {
   width: 100%;
   aspect-ratio: 1;
 }
+.banner > div {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.banner .banner-btns {
+  display: flex;
+  gap: 2rem;
+}
+.banner .banner-btns .btn-secondary {
+  background-color: white;
+}
 
 .features img {
   width: 5rem;

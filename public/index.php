@@ -12,9 +12,11 @@
             <section class="banner grid">
                 <div class="col-7">
                     <h1>Forward</h1>
-                    <p>The place to connect with local mentors</p>
-                    <div class="btn"><a href="#" title="Sign Up" class="">Get started</a></div>
-                    <div class="btn-secondary"><a href="#" title="Sign Up" class="">Learn about Forward</a></div>
+                    <p>Dedicated mentors to help you on your journey.</p>
+                    <div class="banner-btns">
+                        <div class="btn"><a href="#" title="Sign Up" class="">Get started &rarr;</a></div>
+                        <div class="btn-secondary"><a href="#" title="Sign Up" class="">Learn about Forward</a></div>
+                    </div>
                 </div>
                 <img src="<?php echo get_public_url('/images/hero-banner.jpg'); ?>" alt="Two women looking at a laptop screen" class="col-5">
             </section>
