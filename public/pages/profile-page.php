@@ -7,6 +7,7 @@
     <body>
         <?php 
             require(get_path('public/partials/global/header.php'));
+            require(get_path('public/partials/components/side-nav.php'));
         ?>
         <main>
             <h1>Hiya, Dave!</h1>
