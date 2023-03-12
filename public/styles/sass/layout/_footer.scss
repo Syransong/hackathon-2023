@@ -22,13 +22,14 @@ footer {
 
         .line {
             margin: 1rem 0;
+            border-top: 0.063rem solid #c3c3c3;
         }
 
-        hr {
-            justify-self: center;
-            color: config.$dark-grey;
-            width: 80%;
-        }
+        // hr {
+        //     justify-self: center;
+        //     color: config.$dark-grey;
+        //     width: 80%;
+        // }
 
         p {
             text-align: center;
