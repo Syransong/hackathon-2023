@@ -14,7 +14,7 @@
                 <li>
                     <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View User Profile"><img class="img-container" src="<?php echo get_public_url('images/dave-koo-profile-image.jpg'); ?>" alt=""></a>
                 </li>
-                <li><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>">Dave Koo<img class="drop-icon" src="https://img.icons8.com/material/256/expand-arrow.png" alt=""></a></li>
+                <li class="username"><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>">Dave Koo<img class="drop-icon" src="https://img.icons8.com/material/256/expand-arrow.png" alt=""></a></li>
             </ul>
         </nav>
     </div>

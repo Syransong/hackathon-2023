@@ -396,12 +396,12 @@ header .header-content .global-nav {
   align-items: center;
   gap: 16px;
 }
-header .header-content .global-nav :last-child a {
+header .header-content .global-nav .username a {
   display: flex;
   align-items: center;
   color: #171020;
 }
-header .header-content .global-nav :last-child .drop-icon {
+header .header-content .global-nav .username .drop-icon {
   width: 20px;
 }
 header .header-content .global-nav .img-container {
