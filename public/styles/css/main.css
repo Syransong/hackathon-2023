@@ -257,6 +257,24 @@ section.bg {
   transition: 0.3s;
   background: #FCFCFC;
 }
+.mentor-card .mentor-name {
+  padding-top: 12px;
+  color: #00A676;
+}
+.mentor-card .mentor-job {
+  font-weight: 800;
+  margin: 10px 0;
+  margin-top: 3px;
+}
+.mentor-card .mentor-specialization {
+  gap: 3px;
+}
+.mentor-card .mentor-special {
+  background-color: #F8F4E3;
+  padding: 2px 10px;
+  border-radius: 16px;
+  font-size: 12px;
+}
 
 .mentor-card img {
   width: 100%;
@@ -268,7 +286,6 @@ section.bg {
 
 .mentor-card ul {
   gap: 1rem;
-  padding-top: 12px;
 }
 
 .mentor-bar-wrapper {
@@ -489,12 +506,26 @@ footer .footer-content p {
   text-align: center;
 }
 
+.results {
+  grid-area: 1/3/3/12;
+}
+.results section {
+  margin-left: 0;
+}
+
 .matches {
   display: flex;
   gap: 1rem;
   margin: 0 auto;
   justify-content: space-around;
   max-width: 1000px;
+}
+.matches .mentor-card {
+  flex-basis: 30%;
+  border: 1px solid #00A676;
+}
+.matches .mentor-card .mentor-description {
+  display: none;
 }
 
 .results .btn {
@@ -504,6 +535,19 @@ footer .footer-content p {
 
 .opts {
   justify-content: space-between;
+  margin-right: 0;
+}
+.opts :nth-child(2) {
+  text-decoration: underline;
+}
+.opts a {
+  display: flex;
+  align-items: center;
+  color: #171020;
+}
+.opts img {
+  width: 20px;
+  margin-right: 5px;
 }
 
 .tab {
