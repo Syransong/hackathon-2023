@@ -13,8 +13,18 @@
                 <h1>Mentor List</h1>
             </section>
             <section>
-                <div>
-                    <input type="text" placeholder="Search...">
+                <div class="mentor-bar-wrapper">
+                    <div>
+                        <input type="text" placeholder="Search by role, job, language">
+                    </div>
+                    <div class="d-flex filter-btn">
+                        <div class="mentor-filter">
+                            <p>Specialization</p>
+                        </div>
+                        <div class="mentor-filter">
+                            <p>Filter</p>
+                        </div>
+                    </div>
                 </div>
             <section>
                 <div class="all-mentors">

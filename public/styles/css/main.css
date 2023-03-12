@@ -271,6 +271,24 @@ section.bg {
   padding-top: 12px;
 }
 
+.mentor-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.mentor-bar-wrapper .mentor-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00A676;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: #FCFCFC;
+}
+.mentor-bar-wrapper .filter-btn {
+  gap: 24px;
+}
+
 .mentor-card:hover {
   transform: translate(0, -10px);
 }
