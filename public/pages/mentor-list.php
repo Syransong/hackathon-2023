@@ -11,12 +11,13 @@
         <main>
             <section>
                 <h1>Mentor List</h1>
-                <p>List of all mentors</p>
             </section>
             <section>
-                <?php foreach($mentors as $mentor): ?>
-                    <?php include(get_path('public/partials/components/mentor-card.php')); ?>
-                <?php endforeach; ?>
+                <div class="all-mentors">
+                    <?php foreach($mentors as $mentor): ?>
+                        <?php include(get_path('public/partials/components/mentor-card.php')); ?>
+                    <?php endforeach; ?>
+                </div>
             </section>
         </main>
         <?php 

@@ -17,7 +17,7 @@ $conan_galloway = new Mentor([
 
 $richard_te = new Mentor([
     'name' => 'Richard Te',
-    'image_url' => 'richard-te-profile-image.jpg',
+    'image_url' => 'richard-te-profile-image.jfif',
     'user_bio' => 'I have a bachelor’s degree in industrial engineering and graduated from the program I teach now. Both have opened many doors throughout my career, ranging from brand marketing to instructional design, and digital media development. My true passion though is teaching.',
     'job_title' => 'BCIT Instructor',
     'specialization' => ['BRANDING', 'DEVELOPMENT']
