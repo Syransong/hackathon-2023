@@ -377,15 +377,32 @@ footer .footer-content p {
   background-color: white;
 }
 
+.features ul {
+  margin: 6rem auto;
+  gap: 3rem;
+}
 .features img {
   width: 5rem;
   height: 5rem;
+  margin: 1rem auto;
+  display: block;
 }
 
 .testimonials img {
-  width: 15rem;
-  height: 15rem;
+  max-width: 100%;
   object-fit: cover;
+  aspect-ratio: 1/1;
+}
+.testimonials li {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 2rem;
+  max-width: 250px;
+  border-radius: 16px;
+  transition: 0.3s;
+  background: #FCFCFC;
+}
+.testimonials li:hover {
+  transform: translate(0, -10px);
 }
 
 .all-mentors {
