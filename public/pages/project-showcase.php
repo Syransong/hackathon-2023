@@ -15,7 +15,7 @@
             </section>
             <section>
                 <?php foreach($projects as $project): ?>
-                    <?php include(get_project_path('public/partials/components/project-card.php')); ?>
+                    <?php include(get_path('public/partials/components/project-card.php')); ?>
                 <?php endforeach; ?>
             </section>
         </main>

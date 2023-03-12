@@ -1,7 +1,8 @@
 <div class="project-card">
-    <img src="" alt="">
+    <img src="<?php echo get_public_url('/images/') . $project->image; ?>" alt="Mentor Profile Picture">
     <div class="project-info">
-        <p>Title</p>
+        <h1><?php echo h($project->name); ?></h1>
+        <p><?php echo h($project->author_name); ?></p>
         <ul class="d-flex">
             <?php 
                 foreach ($project->tags as $tag) {
@@ -9,8 +10,5 @@
                 }
             ?> 
         </ul>
-        <h1><?php echo h($project->name); ?></h1>
-        <p><?php echo h($project->description); ?></p>
-        <a href="<?php echo get_public_url('projects/') . $project->project_url; ?>">View Project &rarr;</a>
     </div>
 </div>
