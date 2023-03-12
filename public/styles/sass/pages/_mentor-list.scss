@@ -8,6 +8,15 @@
     }
     .mentor-bar-wrapper {
         margin: 25px 0;
+        .mentor-filter {
+            p{
+                font-weight: 800;
+            }
+            img{
+                width: 20px;
+                filter: invert(1)
+            }
+        }
     }
 }
 

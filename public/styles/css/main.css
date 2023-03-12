@@ -493,6 +493,13 @@ footer .footer-content p {
 .mentor-list .mentor-bar-wrapper {
   margin: 25px 0;
 }
+.mentor-list .mentor-bar-wrapper .mentor-filter p {
+  font-weight: 800;
+}
+.mentor-list .mentor-bar-wrapper .mentor-filter img {
+  width: 20px;
+  filter: invert(1);
+}
 
 .all-mentors {
   display: flex;
@@ -516,6 +523,9 @@ footer .footer-content p {
 .projects .mentor-bar-wrapper {
   margin: 25px 0;
 }
+.projects .mentor-bar-wrapper .mentor-filter p {
+  font-weight: 800;
+}
 
 .all-projects {
   display: flex;
@@ -524,6 +534,7 @@ footer .footer-content p {
 }
 .all-projects .project-card {
   flex-basis: 30%;
+  border: 1px solid #00A676;
 }
 
 .login h1 {

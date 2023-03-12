@@ -24,6 +24,7 @@
                         <div class="d-flex filter-btn">
                             <div class="mentor-filter">
                                 <p>Specialization</p>
+                                <img src="https://img.icons8.com/material/256/expand-arrow.png" alt="">
                             </div>
                             <div class="mentor-filter">
                                 <p>Filter</p>
