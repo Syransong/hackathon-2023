@@ -396,12 +396,10 @@ header .header-content .global-nav {
   align-items: center;
   gap: 16px;
 }
-header .header-content .global-nav :last-child {
-  color: #171020;
-}
 header .header-content .global-nav :last-child a {
   display: flex;
   align-items: center;
+  color: #171020;
 }
 header .header-content .global-nav :last-child .drop-icon {
   width: 20px;

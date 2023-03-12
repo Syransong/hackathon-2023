@@ -39,10 +39,10 @@ header {
             align-items: center;
             gap: 16px;
             :last-child{
-                color: config.$black;
                 a{
                     display: flex;
                     align-items: center;
+                    color: config.$black;
                 }
                 .drop-icon {
                     width: 20px;
