@@ -1,20 +1,16 @@
 <?php
 
 class Project {
-    static protected $db;
-
-    public $id;
-    public $project_title;
-    public $project_tags;
-    public $project_image;
+    public $name;
+    public $tags;
+    public $image;
     public $featured;
-    public $user_id;
 
-    static public function set_db($db) {
-        self::$db = $db;
+    public function __construct ($props = []){
+        $this->name = $props['name'] ?? null;
+        $this->tags = $props['tags'] ?? null;
+        $this->image = $props['image'] ?? null;
+        $this->featured = $props['featured'] ?? null;
     }
-
-    
 }
-
 ?>
