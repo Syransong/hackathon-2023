@@ -30,5 +30,8 @@
             ?>
     <?php endforeach;?>
     
+    <?php foreach($mentees as $mentee):?>
+            <?php echo $mentee->name?>
+    <?php endforeach;?>
 </body>
 </html>
