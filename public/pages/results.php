@@ -20,12 +20,12 @@
                     <?php endforeach; ?>
                 </div>
                 <div class="btn">
-                    <a href="#" >See More Matches</a>
+                    <a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" >See More Matches</a>
                 </div>
             </section>
             <section class="d-flex opts">
-                <a href="#" title="Edit Answers">Edit Answers</a>
-                <a href="#" title="See all Mentors">See All Mentors</a>
+                <a href="<?php echo get_public_url('/pages/survey.php'); ?>" title="Edit Answers">Edit Answers</a>
+                <a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" title="See all Mentors">See All Mentors</a>
             </section>
         </main>
         <?php 
