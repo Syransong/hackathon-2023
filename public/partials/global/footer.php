@@ -2,7 +2,7 @@
     <div class="footer-content">
         <div class="d-flex footer">
             <a href="<?php echo get_public_url('/index.php'); ?>" title="Home">
-                <img src="<?php echo get_public_url('images/forward-logo-horizontal.php'); ?>" alt="Forward Logo">
+                <img src="<?php echo get_public_url('images/forward-logo-horizontal.svg'); ?>" alt="Forward Logo">
             </a>
             <nav>
                 <ul>
