@@ -111,12 +111,13 @@ figcaption {
 a {
   text-decoration: none;
   font-weight: 700;
-  color: #00614F;
+  color: #00A676;
 }
 
 body {
   width: 100%;
   margin: 0 auto;
+  background: #F8F4E3;
 }
 
 section {
@@ -196,8 +197,8 @@ section.bg {
   align-self: center;
   width: fit-content;
   text-align: center;
-  padding: 1rem 2rem;
-  background: #00614F;
+  padding: 1rem 1.5rem;
+  background: #00A676;
   border-radius: 1rem;
 }
 .btn > a {
@@ -210,10 +211,10 @@ section.bg {
   align-self: center;
   width: fit-content;
   text-align: center;
-  padding: 1rem 2rem;
-  -webkit-box-shadow: inset 0 0 0 0.2rem rgb(90, 177, 187);
-  -moz-box-shadow: inset 0 0 0 0.2rem rgb(90, 177, 187);
-  box-shadow: inset 0 0 0 0.2rem rgb(90, 177, 187);
+  padding: 1rem 1.5rem;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
+  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
+  box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
 
@@ -222,8 +223,8 @@ section.bg {
   align-self: center;
   width: fit-content;
   text-align: center;
-  padding: 0.25rem 1rem;
-  background: #00614F;
+  padding: 0.5rem 1.5rem;
+  background: #00A676;
   border-radius: 1rem;
 }
 .nav-btn > a {
@@ -236,10 +237,10 @@ section.bg {
   align-self: center;
   width: fit-content;
   text-align: center;
-  padding: 0.25rem 1rem;
-  -webkit-box-shadow: inset 0 0 0 0.2rem rgb(90, 177, 187);
-  -moz-box-shadow: inset 0 0 0 0.2rem rgb(90, 177, 187);
-  box-shadow: inset 0 0 0 0.2rem rgb(90, 177, 187);
+  padding: 0.5rem 1.5rem;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
+  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
+  box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
 

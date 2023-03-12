@@ -13,7 +13,8 @@
                 <div class="col-7">
                     <h1>Forward</h1>
                     <p>The place to connect with local mentors</p>
-                    <div class="btn"><a href="#" title="Sign Up" class="">Get Started</a></div>
+                    <div class="btn"><a href="#" title="Sign Up" class="">Get started</a></div>
+                    <div class="btn-secondary"><a href="#" title="Sign Up" class="">Learn about Forward</a></div>
                 </div>
                 <img src="<?php echo get_public_url('/images/hero-banner.jpg'); ?>" alt="Two women looking at a laptop screen" class="col-5">
             </section>
