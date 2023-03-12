@@ -15,8 +15,10 @@
             <?php  
             
                 echo $mentor->name . '<br>';
+                echo $mentor->image_url . '<br>';
                 echo $mentor->user_bio . '<br>';
-                echo $mentor->job_title[0] . '<br>';
+                echo $mentor->job_title . '<br>';
+                echo $mentor->specialization[0] . '<br>';
             
             ?>
     <?php endforeach;?>
