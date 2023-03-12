@@ -140,6 +140,11 @@ section.bg {
   gap: 1rem;
 }
 
+.grid-row {
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
 .col-1 {
   grid-column: span 1;
 }
@@ -317,6 +322,10 @@ header .header-content .global-nav .img-container {
   height: 2.5rem;
   background: grey;
   border-radius: 50%;
+}
+
+.site-nav {
+  grid-area: 1/1/span 3/span 2;
 }
 
 footer {

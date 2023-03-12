@@ -28,6 +28,11 @@ section.bg {
     gap: 1rem;
 }
 
+.grid-row {
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
 .col-1 { grid-column: span 1; }
 .col-2 { grid-column: span 2; }
 .col-3 { grid-column: span 3; }
