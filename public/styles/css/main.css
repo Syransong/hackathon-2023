@@ -431,4 +431,15 @@ footer .footer-content p {
 
 .opts {
   justify-content: space-between;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.tab {
+  margin: 4rem auto;
+}
+
+input[type=text] {
+  width: 40%;
+  border-radius: 16px;
+  padding: 1rem;
+  font-family: "DM Sans", sans-serif;
+}

@@ -1,0 +1,12 @@
+@use '../config';
+
+.tab {
+    margin: 4rem auto;
+}
+
+input[type=text] {
+    width: 40%;
+    border-radius: 16px;
+    padding: 1rem;
+    font-family: config.$font-body;
+}

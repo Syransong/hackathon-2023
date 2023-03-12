@@ -8,9 +8,11 @@
         <?php 
             require(get_path('public/partials/global/header.php'));
         ?>
-        <main>
-            <h1>Let's learn more about you.</h1>
-            <p>Take our survey and we'll help you find a compatible mentor near you.</p>
+        <main class="survey">
+            <section>
+                <h1>Let's learn more about you.</h1>
+                <p>Take our survey and we'll help you find a compatible mentor near you.</p>
+            </section>
             <section class="survey-form">
                 <div class="tab main-obj">
                     <!-- <p>Step 1 of 3</p> -->
@@ -44,12 +46,14 @@
                         <input type="checkbox" id="pm" value="pm">
                         <label for="pm">Project Management</label>
                 </div>
-                <div>
+                <div class="tab">
                     <!-- <p>Step 3 of 3</p> -->
                     <h2>Where are you located?</h2>
                     <input type="text" placeholder="Search...">
                 </div>
-                <a href="#" class="btn">Finish</a>
+                <div class="btn">
+                    <a href="<?php echo get_public_url('/pages/results.php'); ?>" >Finish</a>
+                </div>
             </section>
         </main>
         <?php 
