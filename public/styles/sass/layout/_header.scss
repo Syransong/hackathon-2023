@@ -1,7 +1,7 @@
 @use '../config';
 
 .notification-icon {
-    width: 32px;
+    width: 42px;
 }
 
 .header-btn {
@@ -9,6 +9,7 @@
     border-radius: 12px;
     padding: 10px 20px;
     color: #FCFCFC;
+    border: 2px solid #00A676;
 }
 
 .header-secondary-btn {
@@ -35,12 +36,8 @@ header {
 
         .global-nav {
             display: flex;
-            justify-content: space-evenly;
             align-items: center;
-
-            li {
-                margin-left: 2rem;
-            }
+            gap: 16px;
 
             .img-container {
                 width: 2.5rem;
