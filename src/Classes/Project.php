@@ -4,6 +4,7 @@ class Project {
     public $name;
     public $tags;
     public $image_url;
+    public $featured;
     public $author_name;
 
     public function __construct ($props = []){
