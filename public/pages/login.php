@@ -6,7 +6,7 @@
     <?php require(get_path('public/partials/global/head.php'));  ?> 
     <body>
         <?php 
-            require(get_path('public/partials/global/header.php'));
+            require(get_path('public/partials/global/header-no-user.php'));
         ?>
         <main>
             <section class="login grid">
@@ -24,7 +24,7 @@
                                     <input type="password" name="password">
                                 </div>
                             </form>
-                            <div class="btn"><a href="">Login</a></div>
+                            <div class="btn"><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>">Login</a></div>
                         </div>
                         <div class="login-links">
                             <p><a href="">Forgot your password?</a></p>

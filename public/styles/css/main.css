@@ -84,7 +84,7 @@ h4 {
 /*----------------------------------
 Typography
 ----------------------------------*/
-p, li, figcaption, label, .text-lg, .text-sm, button {
+p, li, figcaption, label, .text-lg, .text-sm, button, a {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
 }
