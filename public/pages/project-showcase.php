@@ -23,7 +23,7 @@
                         </div>
                         <div class="d-flex filter-btn">
                             <div class="mentor-filter">
-                                <p>Specialization</p>
+                                <p>Sort By</p>
                             </div>
                             <div class="mentor-filter">
                                 <p>Filter</p>

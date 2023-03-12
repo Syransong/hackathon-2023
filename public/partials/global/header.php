@@ -6,7 +6,7 @@
         </a>
         <nav>
             <ul class="global-nav">
-                <li><a href="#" class="header-secondary-btn" title="Project Showcase">Project Showcase</a></li>
+                <li><a href="<?php echo get_public_url('/pages/project-showcase.php'); ?>" class="header-secondary-btn" title="Project Showcase">Project Showcase</a></li>
                 <li><a href="#" class="header-secondary-btn" title="Go to Community Hub">Community Hub</a></li>
                 <li><a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" class="header-btn" title="See List of Mentors">Mentors</a></li>
                 <!-- <li><a href="#" title="View Notifications">Notifications</a></li> -->
