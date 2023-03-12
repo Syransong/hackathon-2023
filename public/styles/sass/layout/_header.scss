@@ -1,5 +1,25 @@
 @use '../config';
 
+.notification-icon {
+    width: 32px;
+}
+
+.header-btn {
+    background-color: #00A676;
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: #FCFCFC;
+}
+
+.header-secondary-btn {
+    background-color: #FCFCFC;
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: #00A676;
+    border: 2px solid #00A676;
+}
+
+
 header {
     width: 100%;
     border-bottom: 0.063rem solid config.$black;
