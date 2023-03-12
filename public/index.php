@@ -10,12 +10,12 @@
         ?>
         <main>
             <section class="banner grid">
-                <div class="col-6">
+                <div class="col-7">
                     <h1>Forward</h1>
                     <p>The place to connect with local mentors</p>
                     <div class="btn"><a href="#" title="Sign Up" class="">Get Started</a></div>
                 </div>
-                <img src="<?php echo get_public_url('/images/hero-banner.jpg'); ?>" alt="Two women looking at a laptop screen" class="col-6">
+                <img src="<?php echo get_public_url('/images/hero-banner.jpg'); ?>" alt="Two women looking at a laptop screen" class="col-5">
             </section>
             <section class="features">
                 <ul class="grid">

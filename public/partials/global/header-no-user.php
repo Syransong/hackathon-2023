@@ -9,8 +9,8 @@
                 <li><a href="<?php echo get_public_url('/index.php'); ?>" title="Go to Home">Home</a></li>
                 <li><a href="#" title="Go to About">About</a></li>
                 <li><a href="#" title="Contact Us">Contact</a></li>
-                <li><a href="<?php echo get_public_url('/pages/login.php'); ?>" title="Login to Your Account">Login</a></li>
-                <li><a href="#" title="Create an Account">Sign Up</a></li>
+                <li class="nav-btn"><a href="<?php echo get_public_url('/pages/login.php'); ?>" title="Login to Your Account">Login</a></li>
+                <li class="nav-btn-secondary"><a href="#" title="Create an Account">Sign Up</a></li>
             </ul>
         </nav>
     </div>

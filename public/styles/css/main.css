@@ -108,6 +108,12 @@ figcaption {
   line-height: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #00614F;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -191,7 +197,45 @@ section.bg {
   width: fit-content;
   text-align: center;
   padding: 1rem 2rem;
-  border: 0.2rem solid #011627;
+  background: #00614F;
+  border-radius: 1rem;
+}
+.btn > a {
+  color: #FCFCFC;
+}
+
+.btn-secondary {
+  box-sizing: border-box;
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  padding: 1rem 2rem;
+  border: 0.2rem solid rgb(90, 177, 187);
+  border-radius: 1rem;
+}
+
+.nav-btn {
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  padding: 0.25rem 1rem;
+  background: #00614F;
+  border-radius: 1rem;
+}
+.nav-btn > a {
+  color: #FCFCFC;
+}
+
+.nav-btn-secondary {
+  box-sizing: border-box;
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  padding: 0.25rem 1rem;
+  border: 0.2rem solid rgb(90, 177, 187);
   border-radius: 1rem;
 }
 
@@ -204,7 +248,7 @@ section.bg {
 
 header {
   width: 100%;
-  border-bottom: 0.063rem solid #011627;
+  border-bottom: 0.063rem solid #171020;
 }
 header .header-content {
   margin: 1.5rem 5rem;
@@ -229,7 +273,7 @@ header .header-content .global-nav .img-container {
 footer {
   flex-direction: column;
   width: 100%;
-  border-top: 0.063rem solid #011627;
+  border-top: 0.063rem solid #171020;
 }
 footer .footer-content {
   margin: 1.5rem 5rem;
@@ -258,6 +302,7 @@ footer .footer-content p {
 .banner img {
   object-fit: cover;
   width: 100%;
+  aspect-ratio: 1;
 }
 
 .features img {
@@ -279,7 +324,7 @@ footer .footer-content p {
   grid-column: 5/span 4;
 }
 .login .login-container {
-  background: #F8F4E3;
+  background: #FCFCFC;
   padding: 2rem;
   margin: 0 auto;
   border-radius: 1rem;
