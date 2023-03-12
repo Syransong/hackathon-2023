@@ -27,7 +27,7 @@
                             <div class="btn"><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>">Login</a></div>
                         </div>
                         <div class="login-links">
-                            <p><a href="">Forgot your password?</a></p>
+                            <p><a href="#">Forgot your password?</a></p>
                             <p>First time? <a href="">Register.</a></p>
                         </div>
                     </div>
