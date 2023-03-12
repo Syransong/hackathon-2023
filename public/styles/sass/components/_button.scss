@@ -1,0 +1,11 @@
+@use '../config';
+
+.btn {
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    text-align: center;
+    padding: 1rem 2rem;
+    border: .2rem solid config.$dark-grey;
+    border-radius: 1rem;
+}

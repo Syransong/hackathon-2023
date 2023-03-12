@@ -30,7 +30,7 @@ h4 {
 /*----------------------------------
 Typography
 ----------------------------------*/
-p, li, figcaption, .text-lg, .text-sm {
+p, li, figcaption, label, .text-lg, .text-sm, button {
     font-family: config.$font-body;
     font-weight: 400;
 }

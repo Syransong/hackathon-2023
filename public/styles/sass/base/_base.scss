@@ -17,7 +17,7 @@ section.bg {
 .container {
     max-width: 80rem;
     margin: 0 auto;
-    padding: 0 1rem;
+    // padding: 0 1rem;
 }
 
 .grid {
@@ -25,13 +25,6 @@ section.bg {
     grid-template-columns: repeat(12, 1fr);
     gap: 1rem;
 }
-
-// .grid > div {
-//     width: 100%;
-//     aspect-ratio: 1;
-//     background-color: #22c55e;
-//     border-radius: 1rem;
-// }
 
 .col-1 { grid-column: span 1; }
 .col-2 { grid-column: span 2; }
