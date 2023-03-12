@@ -418,7 +418,8 @@ footer .footer-content p {
 }
 .login .form-input input {
   height: 3rem;
-  border: none;
+  border: 2px grey solid;
+  width: 80%;
   border-radius: 1rem;
   padding: 0 1rem;
 }
