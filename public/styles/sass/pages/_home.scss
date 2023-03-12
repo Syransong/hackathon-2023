@@ -1,7 +1,9 @@
 @use '../config';
 
 .banner {
-
+    div h1 {
+        font-size: 5rem;
+    }
     > div, img {
         align-self: center;
     }
