@@ -6,7 +6,7 @@
     <?php require(get_path('public/partials/global/head.php'));  ?> 
     <body>
         <?php 
-            require(get_path('public/partials/global/header.php'));
+            require(get_path('public/partials/global/header-no-user.php'));
         ?>
         <main>
             <section class="banner grid">
