@@ -1,0 +1,17 @@
+@use '../config';
+
+.matches {
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.results .btn {
+    display: block;
+    margin: 2rem auto;
+}
+
+.opts {
+    justify-content: space-between;
+}
