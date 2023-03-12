@@ -114,7 +114,7 @@ body {
 }
 
 section {
-  margin: 2.5rem 0;
+  margin: 2.5rem 5rem;
 }
 
 section.bg {
@@ -196,20 +196,23 @@ section.bg {
 }
 
 header {
-  padding: 1.5rem 0;
   width: 100%;
+  border-bottom: 0.063rem solid #011627;
+}
+header .header-content {
+  margin: 1.5rem 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .global-nav {
+header .header-content .global-nav {
   display: flex;
   justify-content: space-evenly;
 }
-header .global-nav li {
-  margin-right: 2rem;
+header .header-content .global-nav li {
+  margin-left: 2rem;
 }
-header .global-nav .img-container {
+header .header-content .global-nav .img-container {
   width: 2.5rem;
   height: 2.5rem;
   background: grey;
@@ -218,32 +221,34 @@ header .global-nav .img-container {
 
 footer {
   flex-direction: column;
+  width: 100%;
+  border-top: 0.063rem solid #011627;
 }
-footer .footer {
+footer .footer-content {
+  margin: 1.5rem 5rem;
+}
+footer .footer-content .footer {
   justify-content: space-between;
   align-items: center;
 }
-footer ul {
+footer .footer-content ul {
   display: flex;
 }
-footer ul li {
+footer .footer-content ul li {
   margin-left: 2rem;
 }
-footer .line {
+footer .footer-content .line {
   margin: 1rem 0;
 }
-footer hr {
+footer .footer-content hr {
   justify-self: center;
   color: #011627;
   width: 80%;
 }
-footer p {
+footer .footer-content p {
   text-align: center;
 }
 
-.banner {
-  margin: 5rem 0;
-}
 .banner > div, .banner img {
   align-self: center;
 }
