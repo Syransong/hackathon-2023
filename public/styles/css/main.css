@@ -205,11 +205,36 @@ section.bg {
 }
 
 .btn-secondary {
+  box-sizing: border-box;
   justify-self: center;
   align-self: center;
   width: fit-content;
   text-align: center;
   padding: 1rem 2rem;
+  border: 0.2rem solid rgb(90, 177, 187);
+  border-radius: 1rem;
+}
+
+.nav-btn {
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  padding: 0.25rem 1rem;
+  background: #00614F;
+  border-radius: 1rem;
+}
+.nav-btn > a {
+  color: #FCFCFC;
+}
+
+.nav-btn-secondary {
+  box-sizing: border-box;
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  padding: 0.25rem 1rem;
   border: 0.2rem solid rgb(90, 177, 187);
   border-radius: 1rem;
 }
@@ -270,6 +295,7 @@ footer .footer-content p {
 .banner img {
   object-fit: cover;
   width: 100%;
+  aspect-ratio: 1;
 }
 
 .features img {
