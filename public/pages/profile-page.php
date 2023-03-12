@@ -7,11 +7,13 @@
     <body>
         <?php 
             require(get_path('public/partials/global/header.php'));
-            require(get_path('public/partials/components/side-nav.php'));
         ?>
-        <main>
-            <h1>Hiya, Dave!</h1>
+        <main class="grid grid-row">
+            <?php
+                require(get_path('public/partials/components/side-nav.php'));
+            ?>
             <section class="profile-card">
+                <h1>Hiya, Dave!</h1>
                 <div>
                     <h2>Let's Find a Mentor</h2>
                     <p>Take our survey and we'll help you find a compatible mentor near you</p>
