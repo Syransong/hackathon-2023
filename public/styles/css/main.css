@@ -84,7 +84,7 @@ h4 {
 /*----------------------------------
 Typography
 ----------------------------------*/
-p, li, figcaption, .text-lg, .text-sm {
+p, li, figcaption, label, .text-lg, .text-sm, button {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
 }
@@ -125,7 +125,6 @@ section.bg {
 .container {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 .grid {
@@ -186,6 +185,16 @@ section.bg {
   display: flex;
 }
 
+.btn {
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  padding: 1rem 2rem;
+  border: 0.2rem solid #011627;
+  border-radius: 1rem;
+}
+
 header {
   padding: 1.5rem 0;
   width: 100%;
@@ -236,4 +245,40 @@ footer {
   width: 15rem;
   height: 15rem;
   object-fit: cover;
+}
+
+.login h1 {
+  grid-area: 1/5/2/span 4;
+}
+.login .container {
+  width: 100%;
+  grid-column: 5/span 4;
+}
+.login .login-container {
+  background: #F8F4E3;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.login .login-form, .login .form-input {
+  display: flex;
+  flex-direction: column;
+}
+.login .login-form {
+  margin-bottom: 1.5rem;
+}
+.login .form-input {
+  margin-bottom: 1.5rem;
+}
+.login .form-input label {
+  margin-bottom: 0.5rem;
+}
+.login .form-input input {
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+.login .login-links {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
