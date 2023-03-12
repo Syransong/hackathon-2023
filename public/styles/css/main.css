@@ -430,7 +430,8 @@ footer .footer-content p {
   display: flex;
   gap: 1rem;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
+  max-width: 1000px;
 }
 
 .results .btn {
