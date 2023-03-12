@@ -11,6 +11,7 @@
     require('Classes/Mentor.php');
     require('data/mentor.php');
     // require('Classes/Mentee.php');
-    // require('Classes/Project.php');
+    require('Classes/Project.php');
+    require('data/project.php');
 
 ?>

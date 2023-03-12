@@ -12,7 +12,22 @@
 <body>
     <h1>Read Mentee Data</h1>
     <?php foreach($mentors as $mentor):?>
-            <?php  echo $mentor->name ?>
+            <?php  
+            
+                echo $mentor->name . '<br>';
+                echo $mentor->user_bio . '<br>';
+                echo $mentor->job_title[0] . '<br>';
+            
+            ?>
+    <?php endforeach;?>
+
+    <?php foreach($projects as $project):?>
+            <?php  
+            
+                echo $project->name . '<br>';
+                echo $tags->tags[0] . '<br>';
+            
+            ?>
     <?php endforeach;?>
     
 </body>
