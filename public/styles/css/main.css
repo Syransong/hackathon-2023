@@ -388,6 +388,16 @@ header .header-content .global-nav {
   align-items: center;
   gap: 16px;
 }
+header .header-content .global-nav :last-child {
+  color: #171020;
+}
+header .header-content .global-nav :last-child a {
+  display: flex;
+  align-items: center;
+}
+header .header-content .global-nav :last-child .drop-icon {
+  width: 20px;
+}
 header .header-content .global-nav .img-container {
   width: 2.5rem;
   height: 2.5rem;
@@ -396,6 +406,7 @@ header .header-content .global-nav .img-container {
   -o-object-fit: cover;
      object-fit: cover;
   aspect-ratio: 1/1;
+  border: 2px solid #00A676;
 }
 
 .site-nav {
@@ -569,6 +580,7 @@ footer .footer-content p {
   width: 80%;
   border-radius: 1rem;
   padding: 0 1rem;
+  margin: 0 auto;
 }
 .login .login-links {
   text-align: center;
@@ -706,7 +718,7 @@ input[type=text] {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 1px solid #00A676;
+  border: 2px solid #00A676;
 }
 .side-nav .nav-links {
   margin-top: 16px;
