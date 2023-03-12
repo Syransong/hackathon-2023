@@ -2,31 +2,36 @@
 
 footer {
     flex-direction: column;
-    
-    .footer {
-        justify-content: space-between;
-        align-items: center;
-    }
+    width: 100%;
+    border-top: 0.063rem solid config.$dark-grey;
 
-    ul {
-        display: flex;
-        
-        li {
-            margin-left: 2rem;
+    .footer-content {
+        margin: 1.5rem 5rem;
+        .footer {
+            justify-content: space-between;
+            align-items: center;
         }
-    }
 
-    .line {
-        margin: 1rem 0;
-    }
+        ul {
+            display: flex;
+            
+            li {
+                margin-left: 2rem;
+            }
+        }
 
-    hr {
-        justify-self: center;
-        color: config.$dark-grey;
-        width: 80%;
-    }
+        .line {
+            margin: 1rem 0;
+        }
 
-    p {
-        text-align: center;
+        hr {
+            justify-self: center;
+            color: config.$dark-grey;
+            width: 80%;
+        }
+
+        p {
+            text-align: center;
+        }
     }
 }
