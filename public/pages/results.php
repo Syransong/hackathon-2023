@@ -19,7 +19,9 @@
                         <?php include(get_path('public/partials/components/mentor-card.php')); ?>
                     <?php endforeach; ?>
                 </div>
-                <a href="#" class="btn">See More Matches</a>
+                <div class="btn">
+                    <a href="#" >See More Matches</a>
+                </div>
             </section>
             <section class="d-flex opts">
                 <a href="#" title="Edit Answers">Edit Answers</a>
