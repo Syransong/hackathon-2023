@@ -15,7 +15,7 @@
             </section>
             <section>
                 <?php foreach($mentors as $mentor): ?>
-                    <?php include(get_project_path('public/partials/components/mentor-card.php')); ?>
+                    <?php include(get_path('public/partials/components/mentor-card.php')); ?>
                 <?php endforeach; ?>
             </section>
         </main>
