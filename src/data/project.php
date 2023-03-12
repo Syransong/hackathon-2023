@@ -9,7 +9,7 @@ $pinnacle_real_estate = new Project([
 $live_2k = new Project([
     'name' => 'Live 2K Website',
     'image' => 'live-2k-thumb.jpg',
-    'tags' => ['DEVELOPMENT'],
+    'tags' => ['DEVELOPMENT', 'UIUX'],
     'featured' => true
 ]);
 
