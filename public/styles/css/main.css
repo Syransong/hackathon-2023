@@ -542,7 +542,7 @@ input[type=text] {
   display: flex;
   gap: 16px;
   flex-direction: column;
-  max-width: 600px;
+  min-width: 600px;
 }
 .profile-content .profile-card .card-thumb {
   width: 152px;
