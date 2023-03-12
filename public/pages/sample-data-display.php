@@ -33,7 +33,10 @@
     <?php endforeach;?>
     
     <?php foreach($mentees as $mentee):?>
-            <?php echo $mentee->name?>
+            <?php echo $mentee->name . '<br>' ?>
+            <?php echo $mentee->image_url . '<br>' ?>
+            <?php echo $mentee->user_bio . '<br>' ?>
+            <?php echo $mentee->target_areas . '<br>' ?>
     <?php endforeach;?>
 </body>
 </html>
