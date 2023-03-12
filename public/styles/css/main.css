@@ -263,6 +263,7 @@ header .header-content {
 header .header-content .global-nav {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 header .header-content .global-nav li {
   margin-left: 2rem;
@@ -370,4 +371,4 @@ footer .footer-content p {
 
 .opts {
   justify-content: space-between;
-}
+}/*# sourceMappingURL=main.css.map */
