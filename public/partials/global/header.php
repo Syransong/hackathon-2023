@@ -10,9 +10,8 @@
                 <li><a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" title="See List of Mentors">Mentors</a></li>
                 <li><a href="#" title="View Notifications">Notifications</a></li>
                 <li>
-                    <div class="img-container">
-                    <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View User Profile"></a>
-                    </div>
+                    <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View User Profile"><div class="img-container">
+                    </div></a>
                 </li>
                 <li><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>">User</a></li>
             </ul>
