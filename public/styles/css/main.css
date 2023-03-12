@@ -200,7 +200,6 @@ section.bg {
 .btn {
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 1rem 1.5rem;
@@ -215,10 +214,11 @@ section.bg {
   box-sizing: border-box;
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 1rem 1.5rem;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
+  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
   box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
@@ -226,7 +226,6 @@ section.bg {
 .nav-btn {
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
@@ -241,10 +240,11 @@ section.bg {
   box-sizing: border-box;
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
+  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
   box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
@@ -338,8 +338,7 @@ section.bg {
   margin: 0 auto;
   border-radius: 16px;
   display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .project-card ul {
@@ -403,14 +402,40 @@ header .header-content .global-nav .img-container {
   height: 2.5rem;
   background: grey;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1/1;
   border: 2px solid #00A676;
 }
 
-.site-nav {
-  grid-area: 1/1/span 3/span 2;
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1.25rem 1.25rem;
+  grid-area: 1/1/3/3;
+  align-items: center;
+  border-right: 1px solid #171020;
+}
+.side-nav .profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #00A676;
+}
+.side-nav .nav-links {
+  margin-top: 16px;
+}
+.side-nav .nav-links ul li {
+  margin: 1.125rem;
+  display: flex;
+  align-items: center;
+}
+.side-nav .nav-links ul li img {
+  margin-right: 8px;
+}
+.side-nav .nav-links ul li a {
+  color: #171020;
+  font-family: "DM Sans", sans-serif;
 }
 
 footer {
@@ -446,10 +471,10 @@ footer .footer-content p {
   align-self: center;
 }
 .banner img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   aspect-ratio: 1;
+  border-radius: 1rem;
 }
 .banner > div {
   display: flex;
@@ -478,8 +503,7 @@ footer .footer-content p {
 
 .testimonials img {
   max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1/1;
 }
 .testimonials li {
@@ -705,37 +729,6 @@ input[type=text] {
   color: #171020;
 }
 
-.side-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  grid-area: 1/1/3/3;
-  align-items: center;
-  border-right: 1px solid #171020;
-}
-.side-nav .profile-image {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 2px solid #00A676;
-}
-.side-nav .nav-links {
-  margin-top: 16px;
-}
-.side-nav .nav-links ul li {
-  margin: 12px;
-  display: flex;
-  align-items: center;
-}
-.side-nav .nav-links ul li img {
-  margin-right: 8px;
-}
-.side-nav .nav-links ul li a {
-  color: #171020;
-  font-family: "DM Sans", sans-serif;
-}
-
 .profile-content {
   grid-area: 1/3/3/8;
   display: flex;
@@ -754,6 +747,7 @@ input[type=text] {
   border-radius: 16px;
   padding: 45px 74px;
   min-width: 600px;
+  -webkit-box-shadow: 0px 2px 12px 5px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 2px 12px 5px rgba(0, 0, 0, 0.08);
 }
 .profile-content .profile-card .card-information {
@@ -766,7 +760,6 @@ input[type=text] {
   width: 152px;
   height: 152px;
   border-radius: 16px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1/1;
 }/*# sourceMappingURL=main.css.map */
