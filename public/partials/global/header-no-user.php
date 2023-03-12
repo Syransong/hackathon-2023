@@ -2,7 +2,7 @@
     <!-- Logged Out Header -->
     <div class="header-content">
         <a href="<?php echo get_public_url('/index.php'); ?>" title="Home">
-            <img src="" alt="">
+            <img src="<?php echo get_public_url('images/forward-logo-horizontal.svg'); ?>" alt="Forward Logo">
         </a>
         <nav>
             <ul class="global-nav">

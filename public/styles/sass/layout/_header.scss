@@ -9,6 +9,9 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .logo {
+            height: 48px;
+        }
 
         .global-nav {
             display: flex;
@@ -24,6 +27,8 @@ header {
                 height: 2.5rem;
                 background: grey;
                 border-radius: 50%;
+                object-fit: cover;
+                aspect-ratio: 1/1;
             }
         }
     }

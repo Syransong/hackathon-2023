@@ -330,6 +330,9 @@ header .header-content {
   justify-content: space-between;
   align-items: center;
 }
+header .header-content .logo {
+  height: 48px;
+}
 header .header-content .global-nav {
   display: flex;
   justify-content: space-evenly;
@@ -343,6 +346,9 @@ header .header-content .global-nav .img-container {
   height: 2.5rem;
   background: grey;
   border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
 .site-nav {
@@ -360,6 +366,9 @@ footer .footer-content {
 footer .footer-content .footer {
   justify-content: space-between;
   align-items: center;
+}
+footer .footer-content .footer .logo {
+  height: 48px;
 }
 footer .footer-content ul {
   display: flex;
@@ -498,7 +507,39 @@ footer .footer-content p {
 }
 
 .tab {
-  margin: 4rem auto;
+  margin-bottom: 60px;
+}
+.tab .select-title {
+  color: #00A676;
+}
+
+.main-obj {
+  display: flex;
+  flex-direction: column;
+}
+.main-obj .radio-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-obj .radio-options label {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 24px;
+  border-radius: 16px;
+  border: 1px solid #171020;
+  max-width: 375px;
+}
+
+.drop-options {
+  position: relative;
+}
+.drop-options select {
+  padding: 15px 24px;
+  border-radius: 16px;
+  border: 1px solid #171020;
+  width: 425px;
+  font-family: "DM Sans", sans-serif;
 }
 
 input[type=text] {
@@ -508,19 +549,52 @@ input[type=text] {
   font-family: "DM Sans", sans-serif;
 }
 
+.survey {
+  grid-area: 1/3/3/12;
+  margin: 68px 63px;
+}
+.survey section {
+  margin: 2.5rem 0;
+}
+.survey .survey-form {
+  background-color: #FCFCFC;
+  border: 1px solid #00A676;
+  border-radius: 16px;
+  padding: 48px 70px;
+}
+.survey .survey-form .progress-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.survey .survey-form .progress-btns .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.survey .survey-form .progress-btns .prev-btn {
+  background-color: #FCFCFC;
+}
+.survey .survey-form .progress-btns .prev-btn img {
+  width: 20px;
+}
+.survey .survey-form .progress-btns .prev-btn a {
+  color: #171020;
+}
+
 .side-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
   grid-area: 1/1/3/3;
   align-items: center;
-  border-right: 1px solid black;
+  border-right: 1px solid #171020;
 }
 .side-nav .profile-image {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  border: 1px solid #00A676;
 }
 .side-nav .nav-links {
   margin-top: 16px;
