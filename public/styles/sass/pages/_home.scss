@@ -1,0 +1,27 @@
+.banner {
+    margin: 5rem 0;
+
+    > div, img {
+        align-self: center;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.features {
+    img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+.testimonials {
+    img {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+    }
+}
