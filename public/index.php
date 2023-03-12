@@ -12,7 +12,8 @@
             <section class="banner grid">
                 <div class="col-7">
                     <h1>Forward</h1>
-                    <p>Dedicated mentors to help you on your journey.</p>
+                    <p class="text-lg">Keep moving Forward!</p>
+                    <p>Built by mentees, for mentors & peers. Forward helps local tech industry professionals and new-comers build communities and connections with each other.</p>
                     <div class="banner-btns">
                         <div class="btn"><a href="<?php echo get_public_url('/pages/login.php'); ?>" title="Sign Up" class="">Get started &rarr;</a></div>
                         <div class="btn-secondary"><a href="<?php echo get_public_url('/pages/login.php'); ?>" title="Sign Up" class="">Learn about Forward</a></div>
