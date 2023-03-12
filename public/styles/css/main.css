@@ -250,6 +250,7 @@ section.bg {
   max-width: 250px;
   border-radius: 16px;
   transition: 0.3s;
+  background: #FCFCFC;
 }
 
 .mentor-card img {
@@ -430,4 +431,4 @@ footer .footer-content p {
 
 .opts {
   justify-content: space-between;
-}
+}/*# sourceMappingURL=main.css.map */
