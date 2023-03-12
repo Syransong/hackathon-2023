@@ -467,6 +467,9 @@ footer .footer-content p {
   text-align: center;
 }
 
+.banner div h1 {
+  font-size: 5rem;
+}
 .banner > div, .banner img {
   align-self: center;
 }
