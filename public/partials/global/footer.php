@@ -22,5 +22,8 @@
             </ul>
         </nav>
     </div>
+    <div class="line">
+        <hr>
+    </div>
     <p>&copy; Forward 2023 | All Rights Reserved</p>
 </footer>

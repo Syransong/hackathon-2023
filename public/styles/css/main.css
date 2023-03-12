@@ -219,10 +219,26 @@ header .global-nav .img-container {
 footer {
   flex-direction: column;
 }
-
-.footer {
+footer .footer {
   justify-content: space-between;
   align-items: center;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  margin-left: 2rem;
+}
+footer .line {
+  margin: 1rem 0;
+}
+footer hr {
+  justify-self: center;
+  color: #011627;
+  width: 80%;
+}
+footer p {
+  text-align: center;
 }
 
 .banner {
