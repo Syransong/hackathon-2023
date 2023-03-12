@@ -11,12 +11,13 @@
         <main>
             <section>
                 <h1>Project Showcase</h1>
-                <p>Explore Projects</p>
             </section>
             <section>
-                <?php foreach($projects as $project): ?>
-                    <?php include(get_path('public/partials/components/project-card.php')); ?>
-                <?php endforeach; ?>
+                <div class="all-projects">
+                    <?php foreach($projects as $project): ?>
+                        <?php include(get_path('public/partials/components/project-card.php')); ?>
+                    <?php endforeach; ?>
+                </div>
             </section>
         </main>
         <?php 
