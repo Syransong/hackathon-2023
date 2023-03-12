@@ -27,7 +27,9 @@
             <?php  
             
                 echo $project->name . '<br>';
-                echo $tags->tags[0] . '<br>';
+                echo $project->tags[0] . '<br>';
+                echo $project->author_name . '<br>';
+                
             
             ?>
     <?php endforeach;?>
