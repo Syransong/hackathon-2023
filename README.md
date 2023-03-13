@@ -2,7 +2,7 @@
 
 Built by mentees, for mentors & peers, Forward helps local tech industry professional and new-comers build communities and connections with each other.
 
-This project was built by a team of first-time hackers for BCIT's [Hack the Break 2023](https://hack-the-break-2023.devpost.com/). 
+This project was built by a team of first-time hackers for BCIT's [Hack the Break 2023](https://hack-the-break-2023.devpost.com/) and was awarded first place. 
 
 ## Features
 - A simple survey for mentees that will match them to professional and local mentors in their area of interest
